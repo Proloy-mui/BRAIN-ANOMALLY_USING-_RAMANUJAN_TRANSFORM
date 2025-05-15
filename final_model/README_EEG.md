@@ -124,7 +124,7 @@ The notebook includes plots to visualize the following transforms on a sample EE
 
 ## 🧠 Authors
 
-- Designed and developed by a researcher exploring EEG signal processing and machine learning integration.
+- @Proloy_mui
 
 ---
 
