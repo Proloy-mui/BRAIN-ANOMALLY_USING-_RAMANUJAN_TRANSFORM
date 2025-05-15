@@ -1,1 +1,113 @@
+# Brain Anomaly Detection Using Ramanujan Transform
+
+This repository contains a prototype for detecting brain anomalies using the Ramanujan Transform technique applied to EEG signals. The project demonstrates a complete pipeline from signal preprocessing, feature extraction using the Ramanujan Transform, to classification of brain anomalies with machine learning models.
+
+---
+
+Project Structure
+
+prototype/
+├── EEG2.ipynb              
+└── README.md           
+
+---
+
+Features
+
+- Preprocessing of raw EEG signals to remove noise and artifacts
+- Application of the Ramanujan Transform for feature extraction tailored to EEG frequency components
+- Training and evaluation of machine learning classifiers to detect anomalies in brain activity
+- Visualization of EEG signals, extracted features, and classification results
+- Fully documented Jupyter Notebook for easy experimentation and extension
+
+---
+
+Detailed Notebook Process Overview
+
+The Jupyter Notebook `EEG2.ipynb` is structured as follows:
+
+1. **Data Loading and Inspection**  
+   - Load raw EEG data from files or datasets  
+   - Visualize sample EEG signals to understand data quality
+
+2. **Signal Preprocessing**  
+   - Apply filtering to remove noise and baseline wander  
+   - Handle missing data and artifacts
+
+3. **Feature Extraction using Ramanujan Transform**  
+   - Compute Ramanujan Periodic Transform coefficients to capture periodic patterns in EEG signals  
+   - Extract relevant features that highlight brain activity anomalies
+
+4. **Model Training and Evaluation**  
+   - Split data into training and testing sets  
+   - Train machine learning classifiers such as SVM, Random Forest, or others  
+   - Evaluate models using accuracy, precision, recall, and confusion matrices
+
+5. **Visualization and Interpretation**  
+   - Plot feature distributions and classification results  
+   - Interpret the model performance and potential clinical relevance
+
+6. **Conclusion and Future Work**  
+   - Summarize findings  
+   - Discuss limitations and next steps
+
+---
+
+Requirements
+
+Install all dependencies with:
+
+pip install -r requirements.txt
+
+---
+
+Dependencies
+
+This project uses the following Python libraries:
+
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- scipy
+- mne
+- joblib
+
+These are listed in requirements.txt.
+
+---
+
+How to Use
+
+1. Clone the repository:
+   git clone https://github.com/yourusername/BRAIN-ANOMALY_USING_RAMANUJAN_TRANSFORM.git
+   cd BRAIN-ANOMALY_USING_RAMANUJAN_TRANSFORM/prototype
+
+2. Install the required packages:
+   pip install -r requirements.txt
+
+3. Open the notebook:
+   jupyter notebook EEG2.ipynb
+
+4. Run all cells sequentially to reproduce the analysis or modify for your own data.
+
+---
+
+Authors
+
+-– @Proloy-mui (https://github.com/Proloy-mui)  
+-- @sukuna09 (https://github.com/sukuna09github)
+
+---
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+Disclaimer
+
+This is a prototype research project and not intended for clinical or production use.
 
